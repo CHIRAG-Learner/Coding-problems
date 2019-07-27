@@ -2,12 +2,15 @@
 int main()
 {
 	int a,b,i,j,temp=0;
+	printf("enter size of array");
 	scanf("%d",&a);
+	printf("enter array elements");
 	int *arr=(int *)malloc(a*sizeof(int));
 	for(i=0;i<a;i++)
 	{
 		scanf("%d",&arr[i]);
 	}
+	printf("enter size of groups to be reversed");
 	scanf("%d",&b);
 	for(i=0;i<a;i=i+b)
 	{
@@ -33,6 +36,7 @@ int main()
 		}	
 		
 	}
+	printf("required reversed array");
 	for(i=0;i<a;i++)
 	{
 		printf("%d\t",arr[i]);
