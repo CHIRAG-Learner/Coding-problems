@@ -26,7 +26,4 @@ int main()
 	{
 		printf("%d\t",arr[i]);
 	}
-	
-	
-	
 }
