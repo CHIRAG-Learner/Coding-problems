@@ -13,8 +13,10 @@ int comparator(const void *a,const void *b)
 int main()
 {
 	int a,i;
+	printf("Enter number of intervals\n");
 	scanf("%d",&a);
      	struct interval obj[a];
+	printf("Enter elements of intervals\n");
      	for(i=0;i<a;i++)
      	{
      		scanf("%d",&obj[i].s);
@@ -42,6 +44,7 @@ int main()
 	  	obj2[k].l=obj[i].l;
 	  }    	
 	}
+	printf("Required intervals\n");
 	for(i=0;i<=k;i++)
 	{
 		printf("%d\t",obj2[i].s);
