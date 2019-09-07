@@ -58,15 +58,10 @@ int main()
 		}
 		if(c==0)
 		{
-			arr[i][0]==0;
+			arr[i][0]=0;
 		}
 	
 	}
-        for( i=0;i<a;i++)
-        {
-            if(c==0)
-              arr[i][0]=0;
-         }
          printf("resultant array is\n");
 	for(i=0;i<a;i++)
 	{
